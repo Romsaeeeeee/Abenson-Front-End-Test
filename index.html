@@ -4,10 +4,213 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comfy Bed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <p>Hellow World</p>
+    <!-- Top Nav -->
+    <div class="top-nav">
+      <div class="upper">
+        <div class="upper-one">
+          <p>Our Shops <i class="fa-solid fa-angle-down"></i></p>
+        </div>
+        <div class="upper-two">
+          <p>Download Abenson App <i class="fa-solid fa-angle-down"></i></p>
+          <p>Store Locator</p>
+          <p>Order Tracker</p>
+          <p>Viber Chat</p>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="middle-1">
+          <img src="./assets/logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="middle-2">
+          <input type="text" name="" id="search" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+        </div>
+        <div class="middle-3">
+          <span class="login"><i class="fa-solid fa-user fa-xl"></i>Login</span>
+          <span class="cart"
+            ><i
+              class="fa-solid fa-cart-shopping fa-xl"
+              style="color: #ffffff"
+            ></i>
+            <span class="cart-content">
+              <p>Cart</p>
+              <p class="money">₱999,999</p>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="lower">
+        <p>Featured</p>
+        <p>
+          <i
+            class="fa-solid fa-tags fa-xs"
+            style="color: #4c525c; margin-right: 6px"
+          ></i
+          >Deals
+        </p>
+        <p>Mobile</p>
+        <p>Gadgets</p>
+        <p>TV</p>
+        <p>Aircon</p>
+        <p>Home Appliance</p>
+        <p>Small Appliance</p>
+        <p>Hardware</p>
+        <p>Furniture</p>
+        <p>Services</p>
+      </div>
+    </div>
+    <!-- Main Section -->
+    <div class="main-section">
+      <div class="main-first">
+        <p class="main-first-title">
+          Choose your <span>next</span> <span>bed</span>
+        </p>
+        <p class="main-first-sub">
+          Better sleep begins with comfort that perfectly suits your style
+        </p>
+      </div>
+      <div class="main-second">
+        <div class="tabs">
+          <button class="active" data-tab="sizes">Sizes</button>
+          <button data-tab="types">Types</button>
+          <button data-tab="firmness">Firmness</button>
+        </div>
+        <!-- Sizes -->
+        <div id="sizes" class="tab-content active">
+          <div class="container">
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/single.png" alt="single-bed" />
+                </span>
+                <p>Single <span>Bed</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/twin.png" alt="twin-bed" />
+                </span>
+                <p>Twin <span>Bed</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/double.png" alt="double-bed" />
+                </span>
+                <p>Double <span>/ Full</span></p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/queen.png" alt="queen-size-bed" />
+                </span>
+                <p>Queen <span>Size</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/king.png" alt="king-size-bed" />
+                </span>
+                <p>King <span>Size</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Types -->
+        <div id="types" class="tab-content">
+          <div class="container">
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/foldable.png" alt="foldable-bed" />
+                </span>
+                <p>Foldable <span>Bed</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/trundle.png" alt="trundle-bed" />
+                </span>
+                <p>Trundle <span>Bed</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/spring.png" alt="spring-bed" />
+                </span>
+                <p>Spring <span>Mattress</span></p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/foam.png" alt="foam-bed" />
+                </span>
+                <p>Foam <span>Mattress</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/latex.png" alt="latex-bed" />
+                </span>
+                <p>Latex <span>Foam</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/senso.png" alt="senso-bed" />
+                </span>
+                <p>Memory <span>Foam</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- Firmness -->
+        <div id="firmness" class="tab-content">
+          <div class="container">
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/plush.png" alt="plush" />
+                </span>
+                <p>Plush</p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/medium.png" alt="medium-plush" />
+                </span>
+                <p>Medium <span>Plush</span></p>
+              </div>
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/firm.png" alt="firm" />
+                </span>
+                <p>Firm</p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="bed">
+                <span class="image-container">
+                  <img src="./assets/medium-firm.png" alt="medium-firm" />
+                </span>
+                <p>Medium <span>Firm</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
