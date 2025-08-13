@@ -1,216 +1,423 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comfy Bed</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- Top Nav -->
-    <div class="top-nav">
-      <div class="upper">
-        <div class="upper-one">
-          <p>Our Shops <i class="fa-solid fa-angle-down"></i></p>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Comfy Bed</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    </head>
+    <body>
+      <!-- Top Nav -->
+      <div class="top-nav">
+        <div class="upper">
+          <div class="upper-one">
+            <p>Our Shops <i class="fa-solid fa-angle-down"></i></p>
+          </div>
+          <div class="upper-two">
+            <p>Download Abenson App <i class="fa-solid fa-angle-down"></i></p>
+            <p>Store Locator</p>
+            <p>Order Tracker</p>
+            <p>Viber Chat</p>
+          </div>
         </div>
-        <div class="upper-two">
-          <p>Download Abenson App <i class="fa-solid fa-angle-down"></i></p>
-          <p>Store Locator</p>
-          <p>Order Tracker</p>
-          <p>Viber Chat</p>
-        </div>
-      </div>
-      <div class="middle">
-        <div class="middle-1">
-          <img src="./assets/logo.png" alt="logo" class="logo" />
-        </div>
-        <div class="middle-2">
-          <input type="text" name="" id="search" placeholder="Search" />
-          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
-        </div>
-        <div class="middle-3">
-          <span class="login"><i class="fa-solid fa-user fa-xl"></i>Login</span>
-          <span class="cart"
-            ><i
-              class="fa-solid fa-cart-shopping fa-xl"
-              style="color: #ffffff"
-            ></i>
-            <span class="cart-content">
-              <p>Cart</p>
-              <p class="money">₱999,999</p>
+        <div class="middle">
+          <div class="middle-1">
+            <img src="./assets/logo.png" alt="logo" class="logo" />
+          </div>
+          <div class="middle-2">
+            <input type="text" name="" id="search" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+          </div>
+          <div class="middle-3">
+            <span class="login"><i class="fa-solid fa-user fa-xl"></i>Login</span>
+            <span class="cart"
+              ><i
+                class="fa-solid fa-cart-shopping fa-xl"
+                style="color: #ffffff"
+              ></i>
+              <span class="cart-content">
+                <p>Cart</p>
+                <p class="money">₱999,999</p>
+              </span>
             </span>
-          </span>
+          </div>
+        </div>
+        <div class="lower">
+          <p>Featured</p>
+          <p>
+            <i
+              class="fa-solid fa-tags fa-xs"
+              style="color: #4c525c; margin-right: 6px"
+            ></i
+            >Deals
+          </p>
+          <p>Mobile</p>
+          <p>Gadgets</p>
+          <p>TV</p>
+          <p>Aircon</p>
+          <p>Home Appliance</p>
+          <p>Small Appliance</p>
+          <p>Hardware</p>
+          <p>Furniture</p>
+          <p>Services</p>
         </div>
       </div>
-      <div class="lower">
-        <p>Featured</p>
-        <p>
-          <i
-            class="fa-solid fa-tags fa-xs"
-            style="color: #4c525c; margin-right: 6px"
-          ></i
-          >Deals
-        </p>
-        <p>Mobile</p>
-        <p>Gadgets</p>
-        <p>TV</p>
-        <p>Aircon</p>
-        <p>Home Appliance</p>
-        <p>Small Appliance</p>
-        <p>Hardware</p>
-        <p>Furniture</p>
-        <p>Services</p>
-      </div>
-    </div>
-    <!-- Main Section -->
-    <div class="main-section">
-      <div class="main-first">
-        <p class="main-first-title">
-          Choose your <span>next</span> <span>bed</span>
-        </p>
-        <p class="main-first-sub">
-          Better sleep begins with comfort that perfectly suits your style
-        </p>
-      </div>
-      <div class="main-second">
-        <div class="tabs">
-          <button class="active" data-tab="sizes">Sizes</button>
-          <button data-tab="types">Types</button>
-          <button data-tab="firmness">Firmness</button>
+      <!-- Main Section -->
+      <div class="main-section">
+        <div class="main-first">
+          <p class="main-first-title">
+            Choose your <span>next</span> <span>bed</span>
+          </p>
+          <p class="main-first-sub">
+            Better sleep begins with comfort that perfectly suits your style
+          </p>
         </div>
-        <!-- Sizes -->
-        <div id="sizes" class="tab-content active">
-          <div class="container">
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/single.png" alt="single-bed" />
-                </span>
-                <p>Single <span>Bed</span></p>
+        <div class="main-second">
+          <div class="tabs">
+            <button class="active" data-tab="sizes">Sizes</button>
+            <button data-tab="types">Types</button>
+            <button data-tab="firmness">Firmness</button>
+          </div>
+          <!-- Sizes -->
+          <div id="sizes" class="tab-content active">
+            <div class="container">
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/single.png" alt="single-bed" />
+                  </span>
+                  <p>Single <span>Bed</span></p>
+                  <div class="details">
+                    <span>Compact bed ideal for kids or small spaces.</span>
+                    <div class="tags">
+                        <span class="tag">36in x 75in</span>
+                        <span class="tag">91cm x 191cm</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/twin.png" alt="twin-bed" />
+                  </span>
+                  <p>Twin <span>Bed</span></p>
+                  <div class="details">
+                    <span>Great for solo sleepers or guest rooms.</span>
+                    <div class="tags">
+                        <span class="tag">39in x 75in</span>
+                        <span class="tag">99cm x 191cm</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/double.png" alt="double-bed" />
+                  </span>
+                  <p>Double <span>/ Full</span></p>
+                  <div class="details">
+                    <span>Cozy for two, spacious for one.</span>
+                    <div class="tags">
+                        <span class="tag">54in x 75in</span>
+                        <span class="tag">137cm x 191cm</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/twin.png" alt="twin-bed" />
-                </span>
-                <p>Twin <span>Bed</span></p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/double.png" alt="double-bed" />
-                </span>
-                <p>Double <span>/ Full</span></p>
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/queen.png" alt="queen-size-bed" />
+                  </span>
+                  <p>Queen <span>Size</span></p>
+                  <div class="details">
+                    <span>Most popular size for couples.</span>
+                    <div class="tags">
+                        <span class="tag">60in x 80in</span>
+                        <span class="tag">152cm x 203cm</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/king.png" alt="king-size-bed" />
+                  </span>
+                  <p>King <span>Size</span></p>
+                  <div class="details">
+                    <span>Extra-long bed for tall people; perfect for families.</span>
+                    <div class="tags">
+                        <span class="tag">76in x 80in</span>
+                        <span class="tag">193cm x 203cm</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/queen.png" alt="queen-size-bed" />
-                </span>
-                <p>Queen <span>Size</span></p>
+          </div>
+          <!-- Types -->
+          <div id="types" class="tab-content">
+            <div class="container">
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/foldable.png" alt="foldable-bed" />
+                  </span>
+                  <p>Foldable <span>Bed</span></p>
+                  <div class="details">
+                    <span>Soft, portable, and flexible. Can be folded for easy storage and transport.</span>
+                    <div class="tags">
+                        <span class="tag">Small Spaces</span>
+                        <span class="tag">Guest Room</span>
+                        <span class="tag">Quick Setup</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/trundle.png" alt="trundle-bed" />
+                  </span>
+                  <p>Trundle <span>Bed</span></p>
+                  <div class="details">
+                    <span>Space-saving functionality. It slides under another bed — easy extra sleeping space.</span>
+                    <div class="tags">
+                        <span class="tag">Combo Sleeper</span>
+                        <span class="tag">Guest Room</span>
+                        <span class="tag">Families with Kids</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/spring.png" alt="spring-bed" />
+                  </span>
+                  <p>Spring <span>Mattress</span></p>
+                  <div class="details">
+                    <span>Firm, lifted, and breathable. It has classic feel with coil support and airflow.</span>
+                    <div class="tags">
+                        <span class="tag">Back Sleeper</span>
+                        <span class="tag">Stomach Sleeper</span>
+                        <span class="tag">Hot Sleeper</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/king.png" alt="king-size-bed" />
-                </span>
-                <p>King <span>Size</span></p>
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/foam.png" alt="foam-bed" />
+                  </span>
+                  <p>Foam <span>Mattress</span></p>
+                  <div class="details">
+                    <span>Light with simple comfort. Also budget-friendly and<br/> versatile.</span>
+                    <div class="tags">
+                        <span class="tag">Kids Room</span>
+                        <span class="tag">Light Sleeper</span>
+                        <span class="tag">Short Term Comfort</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/latex.png" alt="latex-bed" />
+                  </span>
+                  <p>Latex <span>Foam</span></p>
+                  <div class="details">
+                    <span>Firm but bouncy, naturally cool. Also breathable, hypoallergenic, eco-friendly and durable.</span>
+                    <div class="tags">
+                        <span class="tag">Combo Sleeper</span>
+                        <span class="tag">Hot Sleeper</span>
+                        <span class="tag">Allergy Prone User</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/senso.png" alt="senso-bed" />
+                  </span>
+                  <p>Memory <span>Foam</span></p>
+                  <div class="details">
+                    <span>Adapts to your body, relieves pressure and isolates movement.</span>
+                    <div class="tags">
+                        <span class="tag">Side Sleeper</span>
+                        <span class="tag">Couples</span>
+                        <span class="tag">With Back Pain</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- Firmness -->
+          <div id="firmness" class="tab-content">
+            <div class="container">
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/plush.png" alt="plush" />
+                  </span>
+                  <p>Plush</p>
+                  <div class="details">
+                    <span>Very soft and cushiony — you’ll sink in and feel hugged.<br/> Great for pressure relief.</span>
+                    <div class="tags">
+                        <span class="tag">Side Sleeper</span>
+                        <span class="tag">Light Sleeper</span>
+                        <span class="tag">With Back Pain</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/medium.png" alt="medium-plush" />
+                  </span>
+                  <p>Medium <span>Plush</span></p>
+                  <div class="details">
+                    <span>Balanced — not too soft, not too hard. Just the right mix of comfort and support. Keeps your spine aligned.</span>
+                    <div class="tags">
+                        <span class="tag">Stomach Sleeper</span>
+                        <span class="tag">Heavier Sleeper</span>
+                        <span class="tag">Back Condition</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/firm.png" alt="firm" />
+                  </span>
+                  <p>Firm</p>
+                  <div class="details">
+                    <span>More solid, with less give. Keeps your body lifted and<br/> aligned.</span>
+                    <div class="tags">
+                        <span class="tag">Back Sleeper</span>
+                        <span class="tag">Stomach Sleeper</span>
+                        <span class="tag">Heavier Sleeper</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="bed">
+                  <span class="image-container">
+                    <img src="./assets/medium-firm.png" alt="medium-firm" />
+                  </span>
+                  <p>Medium <span>Firm</span></p>
+                  <div class="details">
+                    <span>Right in the middle — not too soft, not too firm. The most versatile choice.</span>
+                    <div class="tags">
+                        <span class="tag">Side Sleeper</span>
+                        <span class="tag">Combo Sleeper</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Types -->
-        <div id="types" class="tab-content">
-          <div class="container">
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/foldable.png" alt="foldable-bed" />
-                </span>
-                <p>Foldable <span>Bed</span></p>
+      </div>
+    </body>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-first">
+          <div class="first-sub1">
+            <div class="sub1-header">
+                <p>Get Special Offers from Abenson</p>
+                <p>Join our subscription and get P100 Off on your first online order!</p>
+                <div class="sub1-sub">
+                  <input type="text" name="" id="sub1-search" placeholder="Enter Your Email Address" />
+                  <button>Subscribe</button>
+                </div>
+            </div>
+            <img src="./assets/footer_desktop_banner.png" alt="banner">
+          </div>
+          <div class="footer-second">
+            <div class="second-sub1">
+              <div class="sub1-content">
+                  <p>Discover</p>
+                  <p>Why Abenson</p>
+                  <p>Awesome Blog</p>
+                  <p>Buyer's Guide</p>
               </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/trundle.png" alt="trundle-bed" />
-                </span>
-                <p>Trundle <span>Bed</span></p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/spring.png" alt="spring-bed" />
-                </span>
-                <p>Spring <span>Mattress</span></p>
+              <div class="sub2-content">
+                <p>Support</p>
+                <p>Order Tracker</p>
+                <p>Awesome Blog</p>
+                <p>Safety Advisory</p>
               </div>
             </div>
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/foam.png" alt="foam-bed" />
-                </span>
-                <p>Foam <span>Mattress</span></p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/latex.png" alt="latex-bed" />
-                </span>
-                <p>Latex <span>Foam</span></p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/senso.png" alt="senso-bed" />
-                </span>
-                <p>Memory <span>Foam</span></p>
+            <div class="second-sub1">
+              <div class="second-sub1">
+                <div class="sub1-content">
+                    <p>Our Services</p>
+                    <p>Click and Collect</p>
+                    <p>Business Solutions</p>
+                    <p>Appliance Padala</p>
+                    <p>New Home Solutions</p>
+                    <p>Easy Ink</p>
+                </div>
+                <div class="sub2-content">
+                  <p>Payment Method</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        </div>
-        <!-- Firmness -->
-        <div id="firmness" class="tab-content">
-          <div class="container">
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/plush.png" alt="plush" />
-                </span>
-                <p>Plush</p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/medium.png" alt="medium-plush" />
-                </span>
-                <p>Medium <span>Plush</span></p>
-              </div>
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/firm.png" alt="firm" />
-                </span>
-                <p>Firm</p>
+          <div class="footer-third">
+            <div class="social-icons">
+              <p>Connect with us</p>
+              <div class="icons">
+                <i class="fa-brands fa-square-facebook fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-square-instagram fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-tiktok fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-viber fa-xl" style="color: #ffffff;"></i>
               </div>
             </div>
-            <div class="product">
-              <div class="bed">
-                <span class="image-container">
-                  <img src="./assets/medium-firm.png" alt="medium-firm" />
-                </span>
-                <p>Medium <span>Firm</span></p>
+            <span class="underline"></span>
+            <div class="contact">
+              <p>Online Personal Shopper</p>
+              <div class="contact-icon">
+                <div class="phone"><i class="fas fa-phone "style="color: #ffffff;"></i> (02) 8811-8811</div>
+                <div class="phone"><i class="fas fa-phone"style="color: #ffffff;"></i> (02) 8811-8811</div>
               </div>
+              <p>See More</p>
             </div>
+            <span class="underline"></span>
+            <p class="white">In-Store Personal Shopper<i class="fa-solid fa-angle-down"></i></p>
+            <span class="underline"></span>
+            <p class="white">Overseas Hotlines<i class="fa-solid fa-angle-down"></i></p>
+            <span class="underline"></span>
+            <p class="white">Business Solutions<i class="fa-solid fa-angle-down"></i></p>
+            <span class="underline"></span>
+            <p class="white">Customer Care<i class="fa-solid fa-angle-down"></i></p>
+            <span class="underline"></span>
+          </div>
+          
+          </div>
+        </div>
+        <div class="footer-below">
+          <div class="three">
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Warranty</p>
+          </div>
+          <p>Copyright © 2022 Abenson Ventures Inc. All rights reserved.</p>
+          <div class="three">
+            <p>FAQ</p>
+            <p>Feedback</p>
+            <p>Careers</p>
           </div>
         </div>
       </div>
-    </div>
-  </body>
-  <script src="script.js"></script>
-</html>
+    </footer>
+    <script src="script.js"></script>
+  </html>
